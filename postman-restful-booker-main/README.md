@@ -1,16 +1,5 @@
 # Postman demo with restful-booker
 
-## Background
-
-I took a great, free online course by Amber Race [(@ambertests)](https://twitter.com/ambertests) through [Test Automation University](https://testautomationu.applitools.com/) by Applitools:
-
-[Exploring Service APIs through Test Automation](https://testautomationu.applitools.com/exploring-service-apis-through-test-automation/)
-
-In it, she introduces API testing basics, [Postman](https://www.getpostman.com/), the [Restful Booker API](https://restful-booker.herokuapp.com/) and [Newman](https://github.com/postmanlabs/newman). Her course inspired me to explore each of these and learn more about API testing.
-
-I set up this repo as a place to store my study work and document for myself what I've learned so far. If you're also new to API testing and find something in here that helps you get started, right on! My corresponding Postman Workspace is publically available at: [Restful Booker on Postman](https://www.postman.com/joannalaine/workspace/restful-booker)
-
-Note: I've done all of my work on a Mac, so you will see Mac-specific references here and there.
 
 ## Repo Structure
 
@@ -50,7 +39,6 @@ Note: I've done all of my work on a Mac, so you will see Mac-specific references
    3. Import one or more environments (from file(s)) into Postman.
       - Environments are imported the same way that collections are.
       - Environment files are stored in this repo under /env (ex. env/Production.postman_environment.json)
-      - Import the Production environment file if you'd like to run tests against the publicly-accessible instance of [Restful Booker](https://restful-booker.herokuapp.com).
       - Import the Local environment file if you'd like to run tests against an instance of Restful Booker running locally on your machine.
 4. Start your local instance of Restful Booker (optional).
    - More info: [Restful Booker](https://github.com/mwinteringham/restful-booker)
